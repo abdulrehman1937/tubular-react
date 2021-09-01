@@ -4,6 +4,10 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
+
+import ImageList from '@material-ui/core/ImageList';
+import ImageListItem from '@material-ui/core/ImageListItem';
+import ImageListItemBar from '@material-ui/core/ImageListItemBar';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import Paper from '@material-ui/core/Paper';
 import Table from '@material-ui/core/Table';
@@ -51,10 +55,10 @@ const RemoteGridList: React.FunctionComponent = () => {
                 <TableBody>
                     <TableRow>
                         <TableCell>
-                            <GridList cellHeight={180} cols={5}>
+                            <ImageList cellHeight={180} cols={5}>
                                 {tbTableInstance.state.data &&
-                                    tbTableInstance.state.data.map(row => (
-                                        <GridListTile key={row.OrderID}>
+                                    tbTableInstance.state.data.map((row) => (
+                                        <ImageListItem key={row.OrderID}>
                                             <Card>
                                                 <CardContent>
                                                     <Typography gutterBottom={true} variant="h5" component="h2">
@@ -71,9 +75,9 @@ const RemoteGridList: React.FunctionComponent = () => {
                                                     </Button>
                                                 </CardActions>
                                             </Card>
-                                        </GridListTile>
+                                        </ImageListItem>
                                     ))}
-                            </GridList>
+                            </ImageList>
                         </TableCell>
                     </TableRow>
                 </TableBody>

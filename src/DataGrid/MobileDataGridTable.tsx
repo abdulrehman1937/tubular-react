@@ -1,4 +1,4 @@
-import GridList from '@material-ui/core/GridList';
+import ImageList from '@material-ui/core/ImageList';
 import * as React from 'react';
 
 import { ITbTableInstance } from 'tubular-react-common';
@@ -30,7 +30,7 @@ export const MobileDataGridTable: React.FunctionComponent<MobileDataGridTablePro
     const onRowClickProxy = onRowClick ? generateOnRowClickProxy(onRowClick) : (_row: any): (() => void) => void 0;
 
     return (
-        <GridList cellHeight="auto" cols={1}>
+        <ImageList cellHeight="auto" cols={1}>
             {tbTableInstance.state.data.map((row: any, index: number) => (
                 <RowComponent
                     columns={tbTableInstance.state.columns}
@@ -40,6 +40,6 @@ export const MobileDataGridTable: React.FunctionComponent<MobileDataGridTablePro
                     key={index}
                 />
             ))}
-        </GridList>
+        </ImageList>
     );
 };

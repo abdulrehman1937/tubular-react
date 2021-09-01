@@ -3,8 +3,8 @@ import * as React from 'react';
 import clsx from 'clsx';
 import Typography from '@material-ui/core/Typography';
 import { TbSelection } from '../utils/Selection';
-import { createStyles, makeStyles, lighten, Theme } from '@material-ui/core/styles';
-
+import { createStyles, lighten, Theme } from '@material-ui/core/styles';
+import makeStyles from '@material-ui/styles/makeStyles';
 export interface SelectionToolbarProps {
     selection: TbSelection;
     actionsArea?: React.ComponentType<any>;

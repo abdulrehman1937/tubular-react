@@ -3,10 +3,9 @@ import { render } from 'react-dom';
 
 import { createTheme } from '@material-ui/core/styles';
 import responsiveFontSizes from '@material-ui/core/styles/responsiveFontSizes';
-import { ThemeProvider } from '@material-ui/core/styles';
+import ThemeProvider from '@material-ui/styles/ThemeProvider';
 
 import Main from './main';
-
 let theme = createTheme();
 theme = responsiveFontSizes(theme);
 

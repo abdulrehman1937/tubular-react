@@ -2,7 +2,7 @@ import * as React from 'react';
 import { ColumnModel, ColumnDataType, CompareOperators } from 'tubular-common';
 import Chip from '@material-ui/core/Chip';
 import { getOperatorIcon } from './utils';
-import { makeStyles } from '@material-ui/core/styles';
+import makeStyles from '@material-ui/styles/makeStyles';
 import CheckBoxIcon from '@material-ui/icons/CheckBox';
 import CheckBoxOutlineBlankIcon from '@material-ui/icons/CheckBoxOutlineBlank';
 
