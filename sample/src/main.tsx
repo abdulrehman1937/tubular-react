@@ -29,6 +29,13 @@ const useStyles = makeStyles(({ palette }: any) => ({
         flexGrow: 1,
         height: '100%',
     },
+    container: {
+        backgroundColor: palette.background.paper,
+        display: 'flex',
+        flexDirection: 'column',
+        flexGrow: 1,
+        height: '100%',
+    },
 }));
 
 const Main: React.FunctionComponent = () => {

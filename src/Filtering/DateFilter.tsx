@@ -1,8 +1,8 @@
-import 'date-fns';
 import * as React from 'react';
 import Grid from '@material-ui/core/Grid';
-import DateFnsUtils from '@date-io/date-fns';
-import { LocalizationProvider, DatePicker } from '@material-ui/pickers';
+import AdapterDateFns from '@material-ui/lab/AdapterDateFns';
+import LocalizationProvider from '@material-ui/lab/LocalizationProvider';
+import DatePicker from '@material-ui/lab/DatePicker';
 import { ColumnModel, CompareOperators } from 'tubular-common';
 import { TextField } from '@material-ui/core';
 
@@ -49,8 +49,8 @@ export const DateFilter: React.FunctionComponent<DateFilterProps> = ({ column }:
     const isBetween = column.filterOperator === CompareOperators.Between;
 
     return (
-        <LocalizationProvider dateAdapter={DateFnsUtils}>
-            <Grid container={true} direction="column">
+        <LocalizationProvider dateAdapter={AdapterDateFns}>
+            <Grid container direction="column">
                 <Grid item={true}>
                     <DatePicker
                         label={isBetween ? 'From' : 'Select a date'}
@@ -60,7 +60,7 @@ export const DateFilter: React.FunctionComponent<DateFilterProps> = ({ column }:
                     />
                 </Grid>
                 {column.filterOperator === CompareOperators.Between && (
-                    <Grid item={true}>
+                    <Grid item>
                         <DatePicker
                             label="To"
                             value={dates[1]}

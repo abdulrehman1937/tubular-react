@@ -12,22 +12,21 @@ import Grid from '@material-ui/core/Grid';
 // };
 
 export const NumericFilter = ({ column, onApply }: FilterEditorProps) => {
-    const handleFilterChange = (isSecondInput?: boolean) => (
-        event: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>,
-    ) => {
-        const newValue = event.target.value;
-        if (isSecondInput) {
-            column.filterArgument = [];
-            column.filterArgument[0] = newValue;
-        } else {
-            column.filterText = newValue;
-        }
-    };
+    const handleFilterChange =
+        (isSecondInput?: boolean) => (event: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>) => {
+            const newValue = event.target.value;
+            if (isSecondInput) {
+                column.filterArgument = [];
+                column.filterArgument[0] = newValue;
+            } else {
+                column.filterText = newValue;
+            }
+        };
 
     const isBetween = column.filterOperator === CompareOperators.Between;
 
     return (
-        <Grid container={true} direction="column">
+        <Grid container direction="column">
             <Grid item={true}>
                 <TextField
                     label={''}
