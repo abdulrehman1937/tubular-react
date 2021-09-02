@@ -25,7 +25,7 @@ export const GridHeader: React.FunctionComponent<GridHeaderProps> = ({
 
     return (
         <TableRow>
-            {detailComponent && <TableCell key="Detail" padding="default" />}
+            {detailComponent && <TableCell key="Detail" padding="normal" />}
             {rowSelectionEnabled && (
                 <TableCell padding="checkbox">
                     <Checkbox

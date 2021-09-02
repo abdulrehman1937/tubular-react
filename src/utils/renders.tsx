@@ -48,7 +48,7 @@ export const renderCells: any = (columns: ColumnModel[], row: any) =>
         .map((column: ColumnModel) => (
             <TableCell
                 key={column.name}
-                padding={column.label === '' ? 'none' : 'default'}
+                padding={column.label === '' ? 'none' : 'normal'}
                 align={getColumnAlign(column)}
             >
                 {renderCellContent(column, row)}

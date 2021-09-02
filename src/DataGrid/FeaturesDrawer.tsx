@@ -102,7 +102,7 @@ export const FeaturesDrawer: React.FunctionComponent<FeaturesDrawerProps> = ({
                 className={classes.mainWrapper}
                 container={true}
                 direction="column"
-                justify="space-between"
+                justifyContent="space-between"
                 wrap="nowrap"
                 style={{ height: '100%' }}
             >

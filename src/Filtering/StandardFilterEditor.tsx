@@ -57,7 +57,7 @@ export const StandardFilterEditor: React.FunctionComponent<FilterEditorProps> = 
     return (
         <>
             <Grid container spacing={2}>
-                <Grid item xs={3} container justify="center" direction="column">
+                <Grid item xs={3} container justifyContent="center" direction="column">
                     <Button
                         variant="outlined"
                         color="primary"

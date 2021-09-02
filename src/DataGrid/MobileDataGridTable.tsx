@@ -30,7 +30,7 @@ export const MobileDataGridTable: React.FunctionComponent<MobileDataGridTablePro
     const onRowClickProxy = onRowClick ? generateOnRowClickProxy(onRowClick) : (_row: any): (() => void) => void 0;
 
     return (
-        <ImageList cellHeight="auto" cols={1}>
+        <ImageList cols={1} rowHeight="auto">
             {tbTableInstance.state.data.map((row: any, index: number) => (
                 <RowComponent
                     columns={tbTableInstance.state.columns}

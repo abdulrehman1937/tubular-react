@@ -36,7 +36,7 @@ export const GridHeaderCell: React.FunctionComponent<GridHeaderCellProps> = ({
     );
 
     return (
-        <TableCell key={column.label} padding={column.label === '' ? 'none' : 'default'}>
+        <TableCell key={column.label} padding={column.label === '' ? 'none' : 'normal'}>
             {render}
         </TableCell>
     );

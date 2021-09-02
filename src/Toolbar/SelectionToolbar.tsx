@@ -3,7 +3,8 @@ import * as React from 'react';
 import clsx from 'clsx';
 import Typography from '@material-ui/core/Typography';
 import { TbSelection } from '../utils/Selection';
-import { createStyles, lighten, Theme } from '@material-ui/core/styles';
+import { lighten, Theme } from '@material-ui/core/styles';
+import { createStyles } from '@material-ui/styles';
 import makeStyles from '@material-ui/styles/makeStyles';
 export interface SelectionToolbarProps {
     selection: TbSelection;
@@ -17,7 +18,7 @@ const useToolbarStyles = makeStyles((theme: Theme) =>
             paddingRight: theme.spacing(1),
         },
         highlight:
-            theme.palette.type === 'light'
+            theme.palette.mode === 'light'
                 ? {
                       color: theme.palette.secondary.main,
                       backgroundColor: lighten(theme.palette.secondary.light, 0.85),
