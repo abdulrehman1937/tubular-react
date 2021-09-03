@@ -24,16 +24,16 @@ var __rest = (this && this.__rest) || function (s, e) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FeaturesDrawer = void 0;
 var React = require("react");
-var Tabs_1 = require("@material-ui/core/Tabs");
-var Tab_1 = require("@material-ui/core/Tab");
-var Typography_1 = require("@material-ui/core/Typography");
-var Box_1 = require("@material-ui/core/Box");
-var Drawer_1 = require("@material-ui/core/Drawer");
+var Tabs_1 = require("@mui/material/Tabs");
+var Tab_1 = require("@mui/material/Tab");
+var Typography_1 = require("@mui/material/Typography");
+var Box_1 = require("@mui/material/Box");
+var Drawer_1 = require("@mui/material/Drawer");
 var FiltersContainer_1 = require("../Filtering/FiltersContainer");
-var FilterList_1 = require("@material-ui/icons/FilterList");
+var FilterList_1 = require("@mui/icons-material/FilterList");
 var tubular_common_1 = require("tubular-common");
-var core_1 = require("@material-ui/core");
-var makeStyles_1 = require("@material-ui/styles/makeStyles");
+var material_1 = require("@mui/material");
+var makeStyles_1 = require("@mui/styles/makeStyles");
 var useStyles = (0, makeStyles_1.default)({
     tabPanel: {
         // It seems the appbar for tabs will always be 72px
@@ -84,15 +84,15 @@ var FeaturesDrawer = function (_a) {
         togglePanel();
     };
     return (React.createElement(Drawer_1.default, { anchor: "right", open: true },
-        React.createElement(core_1.Grid, { role: "presentation", className: classes.mainWrapper, container: true, direction: "column", justifyContent: "space-between", wrap: "nowrap", style: { height: '100%' } },
-            React.createElement(core_1.Grid, { item: true, className: classes.featureContainer },
-                React.createElement(core_1.AppBar, { position: "static" },
+        React.createElement(material_1.Grid, { role: "presentation", className: classes.mainWrapper, container: true, direction: "column", justifyContent: "space-between", wrap: "nowrap", style: { height: '100%' } },
+            React.createElement(material_1.Grid, { item: true, className: classes.featureContainer },
+                React.createElement(material_1.AppBar, { position: "static" },
                     React.createElement(Tabs_1.default, { value: value, onChange: handleChange, "aria-label": "wrapped label tabs example" },
                         React.createElement(Tab_1.default, { value: "filters", icon: React.createElement(FilterList_1.default, null), label: "Filters" }))),
                 React.createElement(TabPanel, { value: value, index: "filters" },
                     React.createElement(FiltersContainer_1.FiltersContainer, { columns: tempColumns.filter(function (c) { return c.filterable; }), onApply: onApplyClick }))),
-            React.createElement(core_1.Grid, { container: true, className: classes.actionsArea, item: true, direction: "row" },
-                React.createElement(core_1.Button, { variant: "contained", color: "primary", onClick: onApplyClick }, "Apply"),
-                React.createElement(core_1.Button, { variant: "outlined", color: "secondary", onClick: togglePanel, style: { marginLeft: 10 } }, "Cancel")))));
+            React.createElement(material_1.Grid, { container: true, className: classes.actionsArea, item: true, direction: "row" },
+                React.createElement(material_1.Button, { variant: "contained", color: "primary", onClick: onApplyClick }, "Apply"),
+                React.createElement(material_1.Button, { variant: "outlined", color: "secondary", onClick: togglePanel, style: { marginLeft: 10 } }, "Cancel")))));
 };
 exports.FeaturesDrawer = FeaturesDrawer;

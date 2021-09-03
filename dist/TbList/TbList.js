@@ -12,8 +12,8 @@ var __assign = (this && this.__assign) || function () {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TbList = void 0;
-var ListItem_1 = require("@material-ui/core/ListItem");
-var ListItemText_1 = require("@material-ui/core/ListItemText");
+var ListItem_1 = require("@mui/material/ListItem");
+var ListItemText_1 = require("@mui/material/ListItemText");
 var React = require("react");
 var react_virtualized_1 = require("react-virtualized");
 var TbListItem_1 = require("./TbListItem");

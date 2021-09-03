@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SearchTextInput = void 0;
-var FormControl_1 = require("@material-ui/core/FormControl");
-var IconButton_1 = require("@material-ui/core/IconButton");
-var Input_1 = require("@material-ui/core/Input");
-var InputAdornment_1 = require("@material-ui/core/InputAdornment");
-var Close_1 = require("@material-ui/icons/Close");
-var Search_1 = require("@material-ui/icons/Search");
+var FormControl_1 = require("@mui/material/FormControl");
+var IconButton_1 = require("@mui/material/IconButton");
+var Input_1 = require("@mui/material/Input");
+var InputAdornment_1 = require("@mui/material/InputAdornment");
+var Close_1 = require("@mui/icons-material/Close");
+var Search_1 = require("@mui/icons-material/Search");
 var React = require("react");
 var styles = {
     formControl: {

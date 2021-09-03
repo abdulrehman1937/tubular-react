@@ -2,8 +2,8 @@ import * as React from 'react';
 import { onKeyDown, FilterEditorProps } from './utils';
 import { CompareOperators } from 'tubular-common';
 // import { ITextStyles } from 'office-ui-fabric-react';
-import TextField from '@material-ui/core/TextField';
-import Grid from '@material-ui/core/Grid';
+import TextField from '@mui/material/TextField';
+import Grid from '@mui/material/Grid';
 
 // const secondInputStyle: ITextStyles = {
 //     root: {

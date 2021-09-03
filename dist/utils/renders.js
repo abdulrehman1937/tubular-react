@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.renderCells = exports.renderDefaultListItem = exports.renderCellContent = exports.formatDateTime = exports.formatDate = void 0;
-var TableCell_1 = require("@material-ui/core/TableCell");
-var CheckBox_1 = require("@material-ui/icons/CheckBox");
-var CheckBoxOutlineBlank_1 = require("@material-ui/icons/CheckBoxOutlineBlank");
+var TableCell_1 = require("@mui/material/TableCell");
+var CheckBox_1 = require("@mui/icons-material/CheckBox");
+var CheckBoxOutlineBlank_1 = require("@mui/icons-material/CheckBoxOutlineBlank");
 var React = require("react");
 var tubular_common_1 = require("tubular-common");
 var formatDate = function (date) {

@@ -1,6 +1,6 @@
-import TableCell from '@material-ui/core/TableCell';
-import CheckBox from '@material-ui/icons/CheckBox';
-import CheckBoxOutlineBlank from '@material-ui/icons/CheckBoxOutlineBlank';
+import TableCell from '@mui/material/TableCell';
+import CheckBox from '@mui/icons-material/CheckBox';
+import CheckBoxOutlineBlank from '@mui/icons-material/CheckBoxOutlineBlank';
 import * as React from 'react';
 import { ColumnDataType, ColumnModel, getColumnAlign, parseDateColumnValue } from 'tubular-common';
 

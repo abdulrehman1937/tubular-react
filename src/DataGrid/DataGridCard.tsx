@@ -1,10 +1,10 @@
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
-import LabelImportant from '@material-ui/icons/LabelImportant';
-import makeStyles from '@material-ui/styles/makeStyles';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import LabelImportant from '@mui/icons-material/LabelImportant';
+import makeStyles from '@mui/styles/makeStyles';
 import * as React from 'react';
 import { ColumnDataType, ColumnModel } from 'tubular-common';
 import { humanize } from 'uno-js';

@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { FilterEditorProps } from './utils';
 import { CompareOperators } from 'tubular-common';
-import RadioGroup from '@material-ui/core/RadioGroup';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Radio from '@material-ui/core/Radio';
-import CheckBoxIcon from '@material-ui/icons/CheckBox';
-import CheckBoxOutlineBlankIcon from '@material-ui/icons/CheckBoxOutlineBlank';
-import makeStyles from '@material-ui/styles/makeStyles';
+import RadioGroup from '@mui/material/RadioGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Radio from '@mui/material/Radio';
+import CheckBoxIcon from '@mui/icons-material/CheckBox';
+import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
+import makeStyles from '@mui/styles/makeStyles';
 
 const useStyles = makeStyles({
     label: {

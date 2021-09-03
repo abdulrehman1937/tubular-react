@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TbLessOrEqualsToIcon = void 0;
 var React = require("react");
-var SvgIcon_1 = require("@material-ui/core/SvgIcon");
+var SvgIcon_1 = require("@mui/material/SvgIcon");
 var TbLessOrEqualsToIcon = function () {
     return (React.createElement(SvgIcon_1.default, null,
         React.createElement("polygon", { points: "10.89 7.1 9.85 6.06 4.94 10.96 4.94 10.96 3.89 12 9.81 17.94 10.85 16.91 5.98 12.01 10.89 7.1" }),

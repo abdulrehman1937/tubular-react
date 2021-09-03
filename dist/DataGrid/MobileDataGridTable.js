@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MobileDataGridTable = void 0;
-var ImageList_1 = require("@material-ui/core/ImageList");
+var ImageList_1 = require("@mui/material/ImageList");
 var React = require("react");
 var TbMobileRow_1 = require("../BareBones/TbMobileRow");
 var generateOnRowClickProxy = function (onRowClick) {

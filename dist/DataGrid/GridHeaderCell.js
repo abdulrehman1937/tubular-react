@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.GridHeaderCell = void 0;
-var TableCell_1 = require("@material-ui/core/TableCell");
-var TableSortLabel_1 = require("@material-ui/core/TableSortLabel");
-var Tooltip_1 = require("@material-ui/core/Tooltip");
+var TableCell_1 = require("@mui/material/TableCell");
+var TableSortLabel_1 = require("@mui/material/TableSortLabel");
+var Tooltip_1 = require("@mui/material/Tooltip");
 var React = require("react");
 var tubular_common_1 = require("tubular-common");
 var Lang_1 = require("../utils/Lang");

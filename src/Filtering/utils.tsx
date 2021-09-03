@@ -13,7 +13,7 @@ import { TbGreaterOrEqualsToIcon } from '../SvgIcons/TbGreaterOrEqualsToIcon';
 import { TbLessThanIcon } from '../SvgIcons/TbLessThanIcon';
 import { TbLessOrEqualsToIcon } from '../SvgIcons/TbLessOrEqualsToIcon';
 import { TbBetweenIcon } from '../SvgIcons/TbBetweenIcon';
-import FilterListIcon from '@material-ui/icons/FilterList';
+import FilterListIcon from '@mui/icons-material/FilterList';
 
 export const handleFilterChange = (column: ColumnModel) => (
     event: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>,

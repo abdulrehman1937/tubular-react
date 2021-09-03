@@ -1,7 +1,7 @@
-import TableCell from '@material-ui/core/TableCell';
-import TableRow from '@material-ui/core/TableRow';
-import Typography from '@material-ui/core/Typography';
-import Warning from '@material-ui/icons/Warning';
+import TableCell from '@mui/material/TableCell';
+import TableRow from '@mui/material/TableRow';
+import Typography from '@mui/material/Typography';
+import Warning from '@mui/icons-material/Warning';
 import * as React from 'react';
 import { ColumnModel } from 'tubular-common';
 import Lang from '../utils/Lang';

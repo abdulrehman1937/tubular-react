@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SelectionToolbar = void 0;
-var Toolbar_1 = require("@material-ui/core/Toolbar");
+var Toolbar_1 = require("@mui/material/Toolbar");
 var React = require("react");
 var clsx_1 = require("clsx");
-var Typography_1 = require("@material-ui/core/Typography");
-var styles_1 = require("@material-ui/core/styles");
-var styles_2 = require("@material-ui/styles");
-var makeStyles_1 = require("@material-ui/styles/makeStyles");
+var Typography_1 = require("@mui/material/Typography");
+var styles_1 = require("@mui/material/styles");
+var styles_2 = require("@mui/styles");
+var makeStyles_1 = require("@mui/styles/makeStyles");
 var useToolbarStyles = (0, makeStyles_1.default)(function (theme) {
     return (0, styles_2.createStyles)({
         root: {

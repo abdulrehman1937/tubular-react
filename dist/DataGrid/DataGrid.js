@@ -12,12 +12,12 @@ var __assign = (this && this.__assign) || function () {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DataGrid = void 0;
-var LinearProgress_1 = require("@material-ui/core/LinearProgress");
-var Paper_1 = require("@material-ui/core/Paper");
-var Table_1 = require("@material-ui/core/Table");
-var TableHead_1 = require("@material-ui/core/TableHead");
-var TableRow_1 = require("@material-ui/core/TableRow");
-var makeStyles_1 = require("@material-ui/styles/makeStyles");
+var LinearProgress_1 = require("@mui/material/LinearProgress");
+var Paper_1 = require("@mui/material/Paper");
+var Table_1 = require("@mui/material/Table");
+var TableHead_1 = require("@mui/material/TableHead");
+var TableRow_1 = require("@mui/material/TableRow");
+var makeStyles_1 = require("@mui/styles/makeStyles");
 var React = require("react");
 var tubular_common_1 = require("tubular-common");
 var tubular_react_common_1 = require("tubular-react-common");

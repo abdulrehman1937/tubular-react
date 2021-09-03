@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DataGridTable = void 0;
-var Table_1 = require("@material-ui/core/Table");
-var TableFooter_1 = require("@material-ui/core/TableFooter");
-var TableHead_1 = require("@material-ui/core/TableHead");
+var Table_1 = require("@mui/material/Table");
+var TableFooter_1 = require("@mui/material/TableFooter");
+var TableHead_1 = require("@mui/material/TableHead");
 var React = require("react");
 var GridBody_1 = require("./GridBody");
 var GridHeader_1 = require("./GridHeader");

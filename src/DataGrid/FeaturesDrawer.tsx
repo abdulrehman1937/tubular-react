@@ -1,15 +1,15 @@
 import * as React from 'react';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
-import Drawer from '@material-ui/core/Drawer';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Drawer from '@mui/material/Drawer';
 import { FiltersContainer } from '../Filtering/FiltersContainer';
-import FilterListIcon from '@material-ui/icons/FilterList';
+import FilterListIcon from '@mui/icons-material/FilterList';
 
 import { ColumnModel, CompareOperators, ColumnDataType } from 'tubular-common';
-import { Button, Grid, AppBar } from '@material-ui/core';
-import makeStyles from '@material-ui/styles/makeStyles';
+import { Button, Grid, AppBar } from '@mui/material';
+import makeStyles from '@mui/styles/makeStyles';
 interface TabPanelProps {
     children?: React.ReactNode;
     index: string;

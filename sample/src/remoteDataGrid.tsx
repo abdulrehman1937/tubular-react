@@ -1,12 +1,12 @@
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 import * as React from 'react';
 import { LocalStorage } from 'tubular-common';
 import { useGridRefresh } from 'tubular-react-common';
 import { DataGrid, ToolbarOptions } from '../../src';
 import columns from './data/columns';
-import Tooltip from '@material-ui/core/Tooltip';
-import IconButton from '@material-ui/core/IconButton';
-import DeleteIcon from '@material-ui/icons/Delete';
+import Tooltip from '@mui/material/Tooltip';
+import IconButton from '@mui/material/IconButton';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 const RemoteDataGrid: React.FunctionComponent = () => {
     const [refresh, forceRefresh] = useGridRefresh();

@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { ColumnModel, ColumnDataType, CompareOperators } from 'tubular-common';
-import Chip from '@material-ui/core/Chip';
+import Chip from '@mui/material/Chip';
 import { getOperatorIcon } from './utils';
-import makeStyles from '@material-ui/styles/makeStyles';
-import CheckBoxIcon from '@material-ui/icons/CheckBox';
-import CheckBoxOutlineBlankIcon from '@material-ui/icons/CheckBoxOutlineBlank';
+import makeStyles from '@mui/styles/makeStyles';
+import CheckBoxIcon from '@mui/icons-material/CheckBox';
+import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
 
 export interface IChipFilterProps {
     column: ColumnModel;

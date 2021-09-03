@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { ColumnModel } from 'tubular-common';
-import TextField from '@material-ui/core/TextField';
+import TextField from '@mui/material/TextField';
 import { handleFilterChange, onKeyDown } from './utils';
 
 export interface StringFilterProps {

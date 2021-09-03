@@ -1,9 +1,9 @@
-import IconButton from '@material-ui/core/IconButton';
-import FirstPage from '@material-ui/icons/FirstPage';
-import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
-import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
-import LastPage from '@material-ui/icons/LastPage';
-import makeStyles from '@material-ui/styles/makeStyles';
+import IconButton from '@mui/material/IconButton';
+import FirstPage from '@mui/icons-material/FirstPage';
+import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
+import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
+import LastPage from '@mui/icons-material/LastPage';
+import makeStyles from '@mui/styles/makeStyles';
 import * as React from 'react';
 import { getPages } from 'tubular-common';
 import Lang from '../utils/Lang';

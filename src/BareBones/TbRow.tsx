@@ -1,13 +1,13 @@
-import TableRow from '@material-ui/core/TableRow';
+import TableRow from '@mui/material/TableRow';
 import * as React from 'react';
 import { ColumnModel } from 'tubular-common';
 import { renderCells } from '../utils/renders';
-import TableCell from '@material-ui/core/TableCell';
-import Checkbox from '@material-ui/core/Checkbox';
+import TableCell from '@mui/material/TableCell';
+import Checkbox from '@mui/material/Checkbox';
 import { TbSelection } from '../utils/Selection';
-import { Collapse, IconButton } from '@material-ui/core';
-import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
-import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import { Collapse, IconButton } from '@mui/material';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { useMasterDetails } from 'tubular-react-common';
 import DetailComponentProps from './DetailComponentProps';
 

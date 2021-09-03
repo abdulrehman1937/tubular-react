@@ -1,9 +1,9 @@
-import LinearProgress from '@material-ui/core/LinearProgress';
-import Paper from '@material-ui/core/Paper';
-import Table from '@material-ui/core/Table';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import makeStyles from '@material-ui/styles/makeStyles';
+import LinearProgress from '@mui/material/LinearProgress';
+import Paper from '@mui/material/Paper';
+import Table from '@mui/material/Table';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import makeStyles from '@mui/styles/makeStyles';
 import * as React from 'react';
 import { ColumnModel, DataGridStorage, TubularHttpClientAbstract, CompareOperators } from 'tubular-common';
 import { useTbTable } from 'tubular-react-common';

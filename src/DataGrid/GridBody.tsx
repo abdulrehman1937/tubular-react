@@ -1,4 +1,4 @@
-import TableBody from '@material-ui/core/TableBody';
+import TableBody from '@mui/material/TableBody';
 import * as React from 'react';
 import { ITbTableInstance } from 'tubular-react-common';
 import { TbRowProps, TbRow } from '../BareBones/TbRow';

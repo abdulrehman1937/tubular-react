@@ -1,7 +1,7 @@
-import AppBar from '@material-ui/core/AppBar';
-import Tab from '@material-ui/core/Tab';
-import Tabs from '@material-ui/core/Tabs';
-import makeStyles from '@material-ui/styles/makeStyles';
+import AppBar from '@mui/material/AppBar';
+import Tab from '@mui/material/Tab';
+import Tabs from '@mui/material/Tabs';
+import makeStyles from '@mui/styles/makeStyles';
 
 import * as React from 'react';
 

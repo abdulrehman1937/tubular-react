@@ -5,8 +5,8 @@ var React = require("react");
 var utils_1 = require("./utils");
 var tubular_common_1 = require("tubular-common");
 // import { ITextStyles } from 'office-ui-fabric-react';
-var TextField_1 = require("@material-ui/core/TextField");
-var Grid_1 = require("@material-ui/core/Grid");
+var TextField_1 = require("@mui/material/TextField");
+var Grid_1 = require("@mui/material/Grid");
 // const secondInputStyle: ITextStyles = {
 //     root: {
 //         marginTop: 5,

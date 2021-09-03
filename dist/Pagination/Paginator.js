@@ -12,8 +12,8 @@ var __assign = (this && this.__assign) || function () {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Paginator = void 0;
-var makeStyles_1 = require("@material-ui/styles/makeStyles");
-var TablePagination_1 = require("@material-ui/core/TablePagination");
+var makeStyles_1 = require("@mui/styles/makeStyles");
+var TablePagination_1 = require("@mui/material/TablePagination");
 var React = require("react");
 var uno_react_1 = require("uno-react");
 var AdvancePaginationActions_1 = require("./AdvancePaginationActions");

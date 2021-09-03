@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.StringFilter = void 0;
 var React = require("react");
-var TextField_1 = require("@material-ui/core/TextField");
+var TextField_1 = require("@mui/material/TextField");
 var utils_1 = require("./utils");
 var StringFilter = function (_a) {
     var column = _a.column, onApply = _a.onApply;

@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.GridBody = void 0;
-var TableBody_1 = require("@material-ui/core/TableBody");
+var TableBody_1 = require("@mui/material/TableBody");
 var React = require("react");
 var TbRow_1 = require("../BareBones/TbRow");
 var NoDataRow_1 = require("./NoDataRow");

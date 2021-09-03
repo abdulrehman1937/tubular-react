@@ -1,11 +1,11 @@
-import Toolbar from '@material-ui/core/Toolbar';
+import Toolbar from '@mui/material/Toolbar';
 import * as React from 'react';
 import clsx from 'clsx';
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mui/material/Typography';
 import { TbSelection } from '../utils/Selection';
-import { lighten, Theme } from '@material-ui/core/styles';
-import { createStyles } from '@material-ui/styles';
-import makeStyles from '@material-ui/styles/makeStyles';
+import { lighten, Theme } from '@mui/material/styles';
+import { createStyles } from '@mui/styles';
+import makeStyles from '@mui/styles/makeStyles';
 export interface SelectionToolbarProps {
     selection: TbSelection;
     actionsArea?: React.ComponentType<any>;

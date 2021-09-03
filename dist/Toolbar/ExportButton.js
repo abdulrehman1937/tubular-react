@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ExportButton = void 0;
-var IconButton_1 = require("@material-ui/core/IconButton");
-var Menu_1 = require("@material-ui/core/Menu");
-var MenuItem_1 = require("@material-ui/core/MenuItem");
-var Tooltip_1 = require("@material-ui/core/Tooltip");
-var CloudDownload_1 = require("@material-ui/icons/CloudDownload");
-var Print_1 = require("@material-ui/icons/Print");
+var IconButton_1 = require("@mui/material/IconButton");
+var Menu_1 = require("@mui/material/Menu");
+var MenuItem_1 = require("@mui/material/MenuItem");
+var Tooltip_1 = require("@mui/material/Tooltip");
+var CloudDownload_1 = require("@mui/icons-material/CloudDownload");
+var Print_1 = require("@mui/icons-material/Print");
 var React = require("react");
 var tubular_react_common_1 = require("tubular-react-common");
 var Lang_1 = require("../utils/Lang");

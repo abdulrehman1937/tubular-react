@@ -13,12 +13,12 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DateFilter = void 0;
 var React = require("react");
-var Grid_1 = require("@material-ui/core/Grid");
-var AdapterDateFns_1 = require("@material-ui/lab/AdapterDateFns");
-var LocalizationProvider_1 = require("@material-ui/lab/LocalizationProvider");
-var DatePicker_1 = require("@material-ui/lab/DatePicker");
+var Grid_1 = require("@mui/material/Grid");
+var AdapterDateFns_1 = require("@mui/lab/AdapterDateFns");
+var LocalizationProvider_1 = require("@mui/lab/LocalizationProvider");
+var DatePicker_1 = require("@mui/lab/DatePicker");
 var tubular_common_1 = require("tubular-common");
-var core_1 = require("@material-ui/core");
+var material_1 = require("@mui/material");
 var getInitialDates = function (column) {
     var dates = [null, null];
     var startDate = Date.parse(column.filterText);
@@ -50,8 +50,8 @@ var DateFilter = function (_a) {
     return (React.createElement(LocalizationProvider_1.default, { dateAdapter: AdapterDateFns_1.default },
         React.createElement(Grid_1.default, { container: true, direction: "column" },
             React.createElement(Grid_1.default, { item: true },
-                React.createElement(DatePicker_1.default, { label: isBetween ? 'From' : 'Select a date', value: dates[0], onChange: handleDateChange(), renderInput: function (props) { return React.createElement(core_1.TextField, __assign({}, props)); } })),
+                React.createElement(DatePicker_1.default, { label: isBetween ? 'From' : 'Select a date', value: dates[0], onChange: handleDateChange(), renderInput: function (props) { return React.createElement(material_1.TextField, __assign({}, props)); } })),
             column.filterOperator === tubular_common_1.CompareOperators.Between && (React.createElement(Grid_1.default, { item: true },
-                React.createElement(DatePicker_1.default, { label: "To", value: dates[1], onChange: handleDateChange(true), renderInput: function (props) { return React.createElement(core_1.TextField, __assign({}, props)); } }))))));
+                React.createElement(DatePicker_1.default, { label: "To", value: dates[1], onChange: handleDateChange(true), renderInput: function (props) { return React.createElement(material_1.TextField, __assign({}, props)); } }))))));
 };
 exports.DateFilter = DateFilter;

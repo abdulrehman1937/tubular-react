@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AdvancePaginationActions = void 0;
-var IconButton_1 = require("@material-ui/core/IconButton");
-var FirstPage_1 = require("@material-ui/icons/FirstPage");
-var KeyboardArrowLeft_1 = require("@material-ui/icons/KeyboardArrowLeft");
-var KeyboardArrowRight_1 = require("@material-ui/icons/KeyboardArrowRight");
-var LastPage_1 = require("@material-ui/icons/LastPage");
-var makeStyles_1 = require("@material-ui/styles/makeStyles");
+var IconButton_1 = require("@mui/material/IconButton");
+var FirstPage_1 = require("@mui/icons-material/FirstPage");
+var KeyboardArrowLeft_1 = require("@mui/icons-material/KeyboardArrowLeft");
+var KeyboardArrowRight_1 = require("@mui/icons-material/KeyboardArrowRight");
+var LastPage_1 = require("@mui/icons-material/LastPage");
+var makeStyles_1 = require("@mui/styles/makeStyles");
 var React = require("react");
 var tubular_common_1 = require("tubular-common");
 var Lang_1 = require("../utils/Lang");

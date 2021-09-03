@@ -1,13 +1,13 @@
-import Toolbar from '@material-ui/core/Toolbar';
+import Toolbar from '@mui/material/Toolbar';
 import * as React from 'react';
 import { ITbTableInstance } from 'tubular-react-common';
 import { useResolutionSwitch, useToggle } from 'uno-react';
 import { SearchTextInput } from '../Filtering/SearchTextInput';
 import { ExportButton } from './ExportButton';
 import { ToolbarOptions } from './ToolbarOptions';
-import IconButton from '@material-ui/core/IconButton';
-import Tooltip from '@material-ui/core/Tooltip';
-import TuneIcon from '@material-ui/icons/Tune';
+import IconButton from '@mui/material/IconButton';
+import Tooltip from '@mui/material/Tooltip';
+import TuneIcon from '@mui/icons-material/Tune';
 import { FeaturesDrawer } from '../DataGrid/FeaturesDrawer';
 import { ColumnModel, CompareOperators, columnHasFilter } from 'tubular-common';
 

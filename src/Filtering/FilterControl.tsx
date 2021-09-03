@@ -2,14 +2,14 @@ import * as React from 'react';
 import { ColumnModel, columnHasFilter, ColumnDataType } from 'tubular-common';
 import { StandardFilterEditor } from './StandardFilterEditor';
 
-import Accordion from '@material-ui/core/Accordion';
-import AccordionSummary from '@material-ui/core/AccordionSummary';
-import AccordionDetails from '@material-ui/core/AccordionDetails';
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
 
-import Typography from '@material-ui/core/Typography';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { Theme } from '@material-ui/core/styles';
-import makeStyles from '@material-ui/styles/makeStyles';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { Theme } from '@mui/material/styles';
+import makeStyles from '@mui/styles/makeStyles';
 import { BooleanFilterEditor } from './BooleanFilterEditor';
 
 export interface FilterControlProps {

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import List from '@material-ui/core/List';
+import List from '@mui/material/List';
 import { ColumnModel } from 'tubular-common';
 import { FilterControl } from './FilterControl';
 

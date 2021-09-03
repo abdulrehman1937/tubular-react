@@ -1,4 +1,4 @@
-import ImageList from '@material-ui/core/ImageList';
+import ImageList from '@mui/material/ImageList';
 import * as React from 'react';
 
 import { ITbTableInstance } from 'tubular-react-common';

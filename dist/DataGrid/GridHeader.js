@@ -1,11 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.GridHeader = void 0;
-var TableCell_1 = require("@material-ui/core/TableCell");
-var TableRow_1 = require("@material-ui/core/TableRow");
+var TableCell_1 = require("@mui/material/TableCell");
+var TableRow_1 = require("@mui/material/TableRow");
 var React = require("react");
 var GridHeaderCell_1 = require("./GridHeaderCell");
-var Checkbox_1 = require("@material-ui/core/Checkbox");
+var Checkbox_1 = require("@mui/material/Checkbox");
 var GridHeader = function (_a) {
     var tbTableInstance = _a.tbTableInstance, detailComponent = _a.detailComponent, rowSelectionEnabled = _a.rowSelectionEnabled, selection = _a.selection;
     var api = tbTableInstance.api, state = tbTableInstance.state;

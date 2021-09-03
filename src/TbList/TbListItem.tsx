@@ -1,4 +1,4 @@
-import ListItem from '@material-ui/core/ListItem';
+import ListItem from '@mui/material/ListItem';
 import * as React from 'react';
 import { renderDefaultListItem } from '../utils/renders';
 import { ColumnModel } from 'tubular-common';

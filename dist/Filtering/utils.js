@@ -16,7 +16,7 @@ var TbGreaterOrEqualsToIcon_1 = require("../SvgIcons/TbGreaterOrEqualsToIcon");
 var TbLessThanIcon_1 = require("../SvgIcons/TbLessThanIcon");
 var TbLessOrEqualsToIcon_1 = require("../SvgIcons/TbLessOrEqualsToIcon");
 var TbBetweenIcon_1 = require("../SvgIcons/TbBetweenIcon");
-var FilterList_1 = require("@material-ui/icons/FilterList");
+var FilterList_1 = require("@mui/icons-material/FilterList");
 var handleFilterChange = function (column) { return function (event) {
     column.filterText = event.target.value;
 }; };

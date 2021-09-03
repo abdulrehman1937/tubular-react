@@ -1,6 +1,6 @@
-import Table from '@material-ui/core/Table';
-import TableFooter from '@material-ui/core/TableFooter';
-import TableHead from '@material-ui/core/TableHead';
+import Table from '@mui/material/Table';
+import TableFooter from '@mui/material/TableFooter';
+import TableHead from '@mui/material/TableHead';
 
 import * as React from 'react';
 import { ITbTableInstance } from 'tubular-react-common';

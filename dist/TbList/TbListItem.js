@@ -12,7 +12,7 @@ var __assign = (this && this.__assign) || function () {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TbListItem = void 0;
-var ListItem_1 = require("@material-ui/core/ListItem");
+var ListItem_1 = require("@mui/material/ListItem");
 var React = require("react");
 var renders_1 = require("../utils/renders");
 var TbListItem = function (_a) {

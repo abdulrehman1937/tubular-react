@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TbContainsIcon = void 0;
 var React = require("react");
-var SvgIcon_1 = require("@material-ui/core/SvgIcon");
+var SvgIcon_1 = require("@mui/material/SvgIcon");
 var TbContainsIcon = function () {
     return (React.createElement(SvgIcon_1.default, { viewBox: "0,0,16,16" },
         React.createElement("rect", { x: "4.78", y: "1.59", width: "6.43", height: "11.63" }),

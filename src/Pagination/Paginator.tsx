@@ -1,5 +1,5 @@
-import makeStyles from '@material-ui/styles/makeStyles';
-import TablePagination from '@material-ui/core/TablePagination';
+import makeStyles from '@mui/styles/makeStyles';
+import TablePagination from '@mui/material/TablePagination';
 import * as React from 'react';
 import { ITbTableInstance } from 'tubular-react-common';
 import { useResolutionSwitch } from 'uno-react';

@@ -1,5 +1,5 @@
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
 import * as React from 'react';
 import { AutoSizer, CellMeasurer, CellMeasurerCache, InfiniteLoader, List, Index, IndexRange } from 'react-virtualized';
 import { ITbListInstance } from 'tubular-react-common';

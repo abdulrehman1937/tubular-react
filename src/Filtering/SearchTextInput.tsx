@@ -1,9 +1,9 @@
-import FormControl from '@material-ui/core/FormControl';
-import IconButton from '@material-ui/core/IconButton';
-import Input from '@material-ui/core/Input';
-import InputAdornment from '@material-ui/core/InputAdornment';
-import Close from '@material-ui/icons/Close';
-import Search from '@material-ui/icons/Search';
+import FormControl from '@mui/material/FormControl';
+import IconButton from '@mui/material/IconButton';
+import Input from '@mui/material/Input';
+import InputAdornment from '@mui/material/InputAdornment';
+import Close from '@mui/icons-material/Close';
+import Search from '@mui/icons-material/Search';
 
 import * as React from 'react';
 

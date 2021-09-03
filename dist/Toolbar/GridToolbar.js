@@ -1,14 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.GridToolbar = void 0;
-var Toolbar_1 = require("@material-ui/core/Toolbar");
+var Toolbar_1 = require("@mui/material/Toolbar");
 var React = require("react");
 var uno_react_1 = require("uno-react");
 var SearchTextInput_1 = require("../Filtering/SearchTextInput");
 var ExportButton_1 = require("./ExportButton");
-var IconButton_1 = require("@material-ui/core/IconButton");
-var Tooltip_1 = require("@material-ui/core/Tooltip");
-var Tune_1 = require("@material-ui/icons/Tune");
+var IconButton_1 = require("@mui/material/IconButton");
+var Tooltip_1 = require("@mui/material/Tooltip");
+var Tune_1 = require("@mui/icons-material/Tune");
 var FeaturesDrawer_1 = require("../DataGrid/FeaturesDrawer");
 var tubular_common_1 = require("tubular-common");
 var mobileSpacer = { flexShrink: 1 };

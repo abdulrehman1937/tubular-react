@@ -3,12 +3,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.BooleanFilterEditor = void 0;
 var React = require("react");
 var tubular_common_1 = require("tubular-common");
-var RadioGroup_1 = require("@material-ui/core/RadioGroup");
-var FormControlLabel_1 = require("@material-ui/core/FormControlLabel");
-var Radio_1 = require("@material-ui/core/Radio");
-var CheckBox_1 = require("@material-ui/icons/CheckBox");
-var CheckBoxOutlineBlank_1 = require("@material-ui/icons/CheckBoxOutlineBlank");
-var makeStyles_1 = require("@material-ui/styles/makeStyles");
+var RadioGroup_1 = require("@mui/material/RadioGroup");
+var FormControlLabel_1 = require("@mui/material/FormControlLabel");
+var Radio_1 = require("@mui/material/Radio");
+var CheckBox_1 = require("@mui/icons-material/CheckBox");
+var CheckBoxOutlineBlank_1 = require("@mui/icons-material/CheckBoxOutlineBlank");
+var makeStyles_1 = require("@mui/styles/makeStyles");
 var useStyles = (0, makeStyles_1.default)({
     label: {
         paddingTop: 5,

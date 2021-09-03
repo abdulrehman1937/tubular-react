@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { ColumnModel, getOperators, ColumnDataType, CompareOperators } from 'tubular-common';
 import { getOperatorIcon, getOperatorText, FilterEditorProps } from './utils';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
-import Grid from '@material-ui/core/Grid';
-import Button from '@material-ui/core/Button';
-import MenuItem from '@material-ui/core/MenuItem';
-import Menu from '@material-ui/core/Menu';
+import Grid from '@mui/material/Grid';
+import Button from '@mui/material/Button';
+import MenuItem from '@mui/material/MenuItem';
+import Menu from '@mui/material/Menu';
 import { NumericFilter } from './NumericFilter';
 import { StringFilter } from './StringFilter';
 import { DateFilter } from './DateFilter';
